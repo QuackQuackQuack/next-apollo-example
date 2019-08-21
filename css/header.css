@@ -1,0 +1,23 @@
+.header {
+  margin-bottom: 25px;
+}
+a {
+  font-size: 14px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+}
+
+.list {
+  overflow: hidden;
+  padding:0px;
+  margin:0px;
+}
+
+.list li {
+  list-style: none;
+  font-size:14px;
+  padding:10px 0px;
+}

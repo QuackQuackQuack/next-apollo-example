@@ -1,0 +1,43 @@
+{
+  "name": "next-graphql",
+  "version": "0.0.1a",
+  "description": "next graphql",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -w server/server.js server/server.js",
+    "restart": "osascript -e 'display notification \"app restarted\" with title \"nodemon\"'",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/server.js"
+  },
+  "author": "quackquackquack",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.3",
+    "apollo-client": "^2.6.3",
+    "apollo-link": "^1.2.12",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-ws": "^1.0.18",
+    "apollo-server": "^2.7.2",
+    "apollo-server-express": "^2.7.2",
+    "apollo-upload-client": "^11.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "loadsh": "^0.0.4",
+    "mongoose": "^5.6.6",
+    "next": "^9.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-element-to-jsx-string": "^14.0.3",
+    "ws": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
