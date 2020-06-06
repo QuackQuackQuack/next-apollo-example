@@ -19,7 +19,7 @@
     "apollo-link-context": "^1.0.18",
     "apollo-link-ws": "^1.0.18",
     "apollo-server": "^2.7.2",
-    "apollo-server-express": "^2.7.2",
+    "apollo-server-express": "^2.14.2",
     "apollo-upload-client": "^11.0.0",
     "body-parser": "^1.19.0",
     "dotenv-webpack": "^1.7.0",
